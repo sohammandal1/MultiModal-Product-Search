@@ -1,0 +1,16 @@
+# Data and Embeddings
+dataset/
+embeddings/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+venv/
+*.env
+
+# IDE specific
+.idea/
+.vscode/
