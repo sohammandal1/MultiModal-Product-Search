@@ -14,6 +14,7 @@ This project is a multi-modal search engine for fashion products, allowing users
 1.  **Clone the repository and install dependencies:**
     ```bash
     git clone https://github.com/sohammandal1/MultiModal-Product-Search.git
+    cd MultiModal-Product-Search
     pip install -r requirements.txt
     ```
 
