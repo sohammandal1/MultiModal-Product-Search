@@ -68,13 +68,24 @@ python ui.py
 
 This will provide a local URL (e.g., http://127.0.0.1:7860). Open it in your browser to use the application.
 
-Tech Stack
-Backend: Python, FastAPI, PyTorch
+## 🛠️ Tech Stack
 
-Frontend: Gradio
+### Backend
+- **Python**: Primary programming language
+- **FastAPI**: Modern, high-performance web framework
+- **PyTorch**: Deep learning framework for model inference
 
-ML Models: OpenCLIP, SentenceTransformer
+### Frontend
+- **Gradio**: Quick and easy web interface for ML models
 
-Vector Database: FAISS
+### ML Models
+- **OpenCLIP**: Multi-modal vision-language model
+- **SentenceTransformer**: Text embedding generation
 
-Core Libraries: Pandas, NumPy, Pillow
+### Vector Database
+- **FAISS**: Efficient similarity search and clustering of dense vectors
+
+### Core Libraries
+- **Pandas**: Data manipulation and analysis
+- **NumPy**: Numerical computing
+- **Pillow**: Image processing capabilities
