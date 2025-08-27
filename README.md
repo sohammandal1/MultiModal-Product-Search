@@ -43,24 +43,28 @@ The system is decoupled into a backend and a frontend for scalability and mainta
 git clone [https://github.com/sohammandal1/MultiModal-Product-Search.git](https://github.com/sohammandal1/MultiModal-Product-Search.git)
 cd MultiModal-Product-Search
 pip install -r requirements.txt
+```
 
-2. Run the One-Time Setup Script
+### 2. Run the One-Time Setup Script
 This script will download the dataset, generate all 44,000+ embeddings, and build the FAISS index. This may take some time depending on your hardware (GPU is recommended).
-
+```bash
 python main.py
+```
 
-3. Launch the Application
+### 3. Launch the Application
 The application runs in two parts. You will need to open two separate terminals.
 
 Terminal 1: Start the API Server
-
+```bash
 uvicorn api:app --reload
+```
 
 Leave this terminal running. This is your backend.
 
 Terminal 2: Start the Gradio UI
-
+```bash
 python ui.py
+```
 
 This will provide a local URL (e.g., http://127.0.0.1:7860). Open it in your browser to use the application.
 
