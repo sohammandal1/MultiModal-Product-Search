@@ -40,7 +40,7 @@ The system is decoupled into a backend and a frontend for scalability and mainta
 
 ### 1. Clone the Repository and Install Dependencies
 ```bash
-git clone [https://github.com/sohammandal1/MultiModal-Product-Search.git](https://github.com/sohammandal1/MultiModal-Product-Search.git)
+git clone https://github.com/sohammandal1/MultiModal-Product-Search.git
 cd MultiModal-Product-Search
 pip install -r requirements.txt
 ```
