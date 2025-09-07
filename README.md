@@ -1,4 +1,4 @@
-# Multi-Modal Fashion Product Search Engine 👕
+# Multi-Modal Fashion Product Search Engine
 
 This project is a complete, end-to-end multi-modal search engine for a large catalog of fashion products. It allows users to find items using natural language, an uploaded image, or a combination of both. The system is built with a modern Python stack, featuring a high-performance vector search backend and a user-friendly web interface.
 
@@ -25,10 +25,10 @@ The system is decoupled into a backend and a frontend for scalability and mainta
 
 ## Features
 
-* **🔎 Text Search**: Find products using natural language queries (e.g., "red summer dress").
-* **🖼️ Image Search**: Upload an image to find visually similar products from the catalog.
-* **✨ Hybrid Search**: Combine an image upload with a text query for highly specific, refined results (e.g., upload a picture of a shirt and add the text "in blue").
-* **❤️ Recommendations**: Get content-based product recommendations for simulated users.
+* **Text Search**: Find products using natural language queries (e.g., "red summer dress").
+* **Image Search**: Upload an image to find visually similar products from the catalog.
+* **Hybrid Search**: Combine an image upload with a text query for highly specific, refined results (e.g., upload a picture of a shirt and add the text "in blue").
+* **Recommendations**: Get content-based product recommendations for simulated users.
 
 ---
 
